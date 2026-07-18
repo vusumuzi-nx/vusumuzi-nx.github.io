@@ -587,7 +587,7 @@
   width: 18px;
   height: 18px;
   align-self: center;
-  flex-shrink: 0;
+  align-items: center;
 }
  
 .profile-thq-text-elm {
