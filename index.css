@@ -311,7 +311,7 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-image: url("public/1770734722079-1500w.png");
+  background-image: url("public/bg-1500w.png");
   background-position: center;
 }
  
@@ -713,7 +713,7 @@
   border-radius: var(--dl-layout-radius-radius4);
   background-size: cover;
   justify-content: center;
-  background-image: url("public/b34ccf4f-5b41-4f33-9e46-55e1986a491a-1400w.png");
+  background-image: url("public/profile-1400w.png");
   background-repeat: no-repeat;
   background-position: top;
   border-top-left-radius: var(--dl-layout-radius-radius4);
