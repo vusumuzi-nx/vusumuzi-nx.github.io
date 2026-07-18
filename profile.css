@@ -551,6 +551,9 @@
  
 .profile-icon15 {
   align-self: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
 }
  
 .profile-text3 {
@@ -584,6 +587,7 @@
   width: 18px;
   height: 18px;
   align-self: center;
+  flex-shrink: 0;
 }
  
 .profile-thq-text-elm {
