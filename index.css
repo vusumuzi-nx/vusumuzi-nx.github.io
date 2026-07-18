@@ -1646,7 +1646,7 @@
   .home-text72 {
     fill: var(--dl-color-gray-900);
     color: var(--dl-color-gray-900);
-    width: 100%;
+    align-self: center;
     text-align: center;
   }
   .home-container50 {
