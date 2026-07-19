@@ -196,7 +196,7 @@
  
 .primary-button-button {
   color: var(--dl-color-gray-white);
-  width: 85px;
+  width: 100px;
   height: 24px;
   align-items: center;
   justify-content: center;
@@ -231,7 +231,7 @@
  
 .secondary-button-button {
   color: var(--dl-color-gray-white);
-  width: 85px;
+  width: 100px;
   height: 24px;
   align-items: center;
   justify-content: center;
