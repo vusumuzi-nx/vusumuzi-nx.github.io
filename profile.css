@@ -196,6 +196,11 @@
  
 .primary-button-button {
   color: var(--dl-color-gray-white);
+  width: 80px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   transition: 0.3s;
   line-height: 1;
   padding-top: var(--dl-layout-space-halfunit);
@@ -203,7 +208,7 @@
   padding-left: var(--dl-layout-space-unit);
   padding-right: var(--dl-layout-space-unit);
   padding-bottom: var(--dl-layout-space-halfunit);
-  text-transform: uppercase;
+  text-transform: none;
   background-color: var(--dl-color-pimary-500);
 }
  
@@ -226,6 +231,10 @@
  
 .secondary-button-button {
   color: var(--dl-color-gray-white);
+  width: 80px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   transition: 0.3s;
   line-height: 1;
