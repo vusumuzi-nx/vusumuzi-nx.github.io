@@ -1061,6 +1061,7 @@
 }
  
 .home-text55 {
+  fill: var(--dl-color-secondary-400);
   color: var(--dl-color-secondary-400);
   margin-top: var(--dl-layout-space-unitandhalf);
   text-align: center;
