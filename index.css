@@ -179,6 +179,7 @@
   color: var(--dl-color-pimary-500);
   margin-top: var(--dl-layout-space-doubleunit);
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* Wrapper for positioning the menu */
@@ -235,13 +236,14 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  box-sizing: border-box;
 
   /* Smooth animation setup for opening/closing */
   max-height: 0;
   opacity: 0;
   margin-top: 0;
+  padding: 8px;
   overflow: hidden;
-  padding: 4px;
   transition:
     max-height 0.4s ease,
     opacity 0.3s ease,
@@ -259,6 +261,7 @@
   font-weight: bold;
   font-size: 14px;
   color: #4aa4e3;
+  overflow: hidden;
   background-color: #111729;
   border: 2px solid #111729;
   border-radius: 50px;
@@ -291,7 +294,6 @@
 .contact-checkbox:checked ~ .contact-options {
   max-height: 120px; /* Expands to show child buttons */
   opacity: 1;
-  margin-top: 10px; /* Space between main button & options */
 }
 
 /* Keeps the main button highlighted when the menu is open */
@@ -1369,6 +1371,7 @@
   align-self: center;
   font-size: 1.275rem;
   line-height: 1;
+  text-transform: uppercase;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
