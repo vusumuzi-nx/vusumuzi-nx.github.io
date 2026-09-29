@@ -36,10 +36,11 @@
   text-decoration: none;
   width: 24px;
   height: 24px;
+  margin: var(--dl-layout-space-triplequarter)
 }
 
 .header-thq-profil-elm:hover {
-  transform: scale(0.95);
+  transform: scale(0.96);
 }
 
 .header-container2 {
@@ -64,7 +65,7 @@
 
 .header-icon13:hover {
   transition: 0.3s ease;
-  transform: scale(0.95);
+  transform: scale(0.96);
 }
 
 .header-link2 {
@@ -81,7 +82,7 @@
 
 .header-icon15:hover {
   transition: 0.3s ease;
-  transform: scale(0.9);
+  transform: scale(0.96);
 }
 
 .header-link3 {
@@ -98,7 +99,7 @@
 
 .header-icon19:hover {
   transition: 0.3s ease;
-  transform: scale(0.9);
+  transform: scale(0.96);
 }
 
 .headerroot-class-name {
@@ -129,6 +130,9 @@
   }
   .header-container2 {
     display: none;
+  }
+  .home-container37 {
+    gap: 34px;
   }
   .headerroot-class-name {
     margin-bottom: 0px;
@@ -226,7 +230,6 @@
 .contact-btn:hover {
   background-color: #111729;
   border-color: #111729;
-  transform: translate(0px);
   box-shadow: 0px 2px 8px #4aa4e3;
 }
 
@@ -272,13 +275,16 @@
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;    
 }
 
+.a.option-btn.gmail-btn.phone-btn {
+  overflow: hidden;
+}
+
 /* Hover effects for individual option buttons */
 .gmail-btn:hover {
   background-color: #ea4335; /* Gmail Red */
   color: #ea4335;
   background-color: #111729;
   border-color: #111729;
-  transform: translate(0px);
   box-shadow: 0px 2px 8px #ea4335;
 }
 
@@ -286,14 +292,13 @@
   color: #34a853;
   background-color: #111729;
   border-color: #111729;
-  transform: translate(0px);
   box-shadow: 0px 2px 8px #34a853;
 }
 
 /* --- OPEN MENU STATE (Triggers when the main button is CLICKED) --- */
 .contact-checkbox:checked ~ .contact-options {
   max-height: 120px; /* Expands to show child buttons */
-  opacity: 1;
+  opacity: 100;
 }
 
 /* Keeps the main button highlighted when the menu is open */
@@ -412,6 +417,14 @@
   border-radius: var(--dl-layout-radius-round);
   background-color: var(--dl-color-secondary-400);
 }
+
+.home-separator3 {
+  width: 100%;
+  height: 1px;
+  border-radius: var(--dl-layout-radius-round);
+  background-color: var(--dl-color-pimary-500);
+}
+
 
 .home-text11 {
   color: var(--dl-color-gray-900);
@@ -532,6 +545,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  border-radius: var(--dl-layout-radius-radius4);
 }
 
 .home-image2 {
@@ -539,6 +553,7 @@
   height: auto;
   align-self: center;
   object-fit: cover;
+  border-radius: var(--dl-layout-radius-radius4);
 }
 
 .home-text20 {
@@ -588,14 +603,15 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  border-radius: var(--dl-layout-radius-radius4);
 }
 
 .home-image3 {
   width: 6rem;
   height: var(--dl-layout-size-tripleunit);
+  align-self: center;
   object-fit: cover;
-  border-top-right-radius: var(--dl-layout-radius-radius4);
-  border-bottom-right-radius: var(--dl-layout-radius-radius4);
+  border-radius: var(--dl-layout-radius-radius4);
 }
 
 .home-text22 {
@@ -657,12 +673,14 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  border-radius: var(--dl-layout-radius-radius4);
 }
 
 .home-image4 {
   width: 6rem;
   height: var(--dl-layout-size-doubleunit);
   object-fit: cover;
+  border-radius: var(--dl-layout-radius-radius4);
 }
 
 .home-text24 {
@@ -1124,11 +1142,11 @@
   color: var(--dl-color-secondary-400);
   margin-top: var(--dl-layout-space-unitandhalf);
   text-align: center;
+  width: 200px;
 }
 
 .home-text56 {
   color: var(--dl-color-secondary-400);
-  margin-top: var(--dl-layout-space-unit);
   text-align: center;
   margin-bottom: var(--dl-layout-space-unitandhalf);
 }
@@ -1167,11 +1185,11 @@
   color: var(--dl-color-secondary-400);
   margin-top: var(--dl-layout-space-unitandhalf);
   text-align: center;
+  width: 200px;
 }
 
 .home-text60 {
   color: var(--dl-color-secondary-400);
-  margin-top: var(--dl-layout-space-unit);
   text-align: center;
   margin-bottom: var(--dl-layout-space-unitandhalf);
 }

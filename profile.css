@@ -27,7 +27,6 @@
   justify-content: space-between;
 }
 
-
 .header-navlink2 {
   display: contents;
 }
@@ -38,10 +37,11 @@
   text-decoration: none;
   width: 24px;
   height: 24px;
+  margin: var(--dl-layout-space-triplequarter) 
 }
 
 .header-thq-profil-elm:hover {
-  transform: scale(0.95);
+  transform: scale(0.96);
 }
 
 .header-container2 {
@@ -65,7 +65,7 @@
 
 .header-icon13:hover {
   transition: 0.3s;
-  transform: scale(0.95);
+  transform: scale(0.96)
 }
 
 .header-link2 {
@@ -82,7 +82,7 @@
 
 .header-icon15:hover {
   transition: 0.3s;
-  transform: scale(0.95);
+  transform: scale(0.96);
 }
 
 .header-link3 {
@@ -99,7 +99,7 @@
 
 .header-icon19:hover {
   transition: 0.3s;
-  transform: scale(0.95);
+  transform: scale(0.96);
 }
 
 .headerroot-class-name {
