@@ -103,6 +103,7 @@
   font-weight: 400;
   text-transform: none;
   text-decoration: none;
+  color: var(--dl-color-secondary-700);
 }
  
 .TextSM {
@@ -161,4 +162,5 @@
   font-weight: 400;
   text-transform: none;
   text-decoration: none;
+  color: var(--dl-color-secondary-700);
 }

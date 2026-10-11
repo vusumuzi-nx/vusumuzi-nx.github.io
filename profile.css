@@ -40,10 +40,6 @@
   margin: var(--dl-layout-space-triplequarter) 
 }
 
-.header-thq-profil-elm:hover {
-  transform: scale(0.96);
-}
-
 .header-container2 {
   flex: 0 0 auto;
   display: flex;
@@ -60,12 +56,6 @@
   height: 24px;
   margin: var(--dl-layout-space-triplequarter);
   text-decoration: none;
-  transition: 0.3s ease;
-}
-
-.header-icon13:hover {
-  transition: 0.3s;
-  transform: scale(0.96)
 }
 
 .header-link2 {
@@ -77,12 +67,6 @@
   height: 24px;
   margin: var(--dl-layout-space-triplequarter);
   text-decoration: none;
-  transition: 0.3s ease;
-}
-
-.header-icon15:hover {
-  transition: 0.3s;
-  transform: scale(0.96);
 }
 
 .header-link3 {
@@ -94,12 +78,6 @@
   height: 24px;
   margin: var(--dl-layout-space-triplequarter);
   text-decoration: none;
-  transition: 0.3s ease;
-}
-
-.header-icon19:hover {
-  transition: 0.3s;
-  transform: scale(0.96);
 }
 
 .headerroot-class-name {

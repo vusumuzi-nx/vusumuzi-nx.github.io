@@ -39,10 +39,6 @@
   margin: var(--dl-layout-space-triplequarter)
 }
 
-.header-thq-profil-elm:hover {
-  transform: scale(0.96);
-}
-
 .header-container2 {
   flex: 0 0 auto;
   display: flex;
@@ -60,12 +56,6 @@
   height: 24px;
   margin: var(--dl-layout-space-triplequarter);
   text-decoration: none;
-  transition: 0.3s ease;
-}
-
-.header-icon13:hover {
-  transition: 0.3s ease;
-  transform: scale(0.96);
 }
 
 .header-link2 {
@@ -77,12 +67,6 @@
   height: 24px;
   margin: var(--dl-layout-space-triplequarter);
   text-decoration: none;
-  transition: 0.3s ease;
-}
-
-.header-icon15:hover {
-  transition: 0.3s ease;
-  transform: scale(0.96);
 }
 
 .header-link3 {
@@ -94,12 +78,6 @@
   height: 24px;
   margin: var(--dl-layout-space-triplequarter);
   text-decoration: none;
-  transition: 0.3s ease;
-}
-
-.header-icon19:hover {
-  transition: 0.3s ease;
-  transform: scale(0.96);
 }
 
 .headerroot-class-name {
@@ -177,134 +155,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.footer-text1 {
-  color: var(--dl-color-pimary-500);
-  margin-top: var(--dl-layout-space-doubleunit);
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-/* Wrapper for positioning the menu */
-.contact-menu-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* Width auto-adjusts based on screen query below */
-  width: 100%;
-  max-width: 220px;
-  margin-top: var(--dl-layout-space-doubleunit);
-}
-
-/* Hide the checkbox control element */
-.contact-checkbox {
-  display: none;
-}
-
-/* Base Main Button Style (Mobile Default) */
-.contact-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  width: 100%;
-  background-color: #111729ff;
-  color: #4aa4e3ff;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 50px;
-  border: 2px solid #111729ff;
-  cursor: pointer;
-  user-select: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 3px #4aa4e3ff;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;  
-}
-
-/* --- HOVER EFFECT FOR MAIN BUTTON --- */
-.contact-btn:hover {
-  background-color: #111729ff;
-  border-color: #111729ff;
-  box-shadow: 0px 2px 8px #4aa4e3ff;
-}
-
-/* --- OPTIONS MENU CONTAINER (Hidden by default) --- */
-.contact-options {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  box-sizing: border-box;
-
-  /* Smooth animation setup for opening/closing */
-  max-height: 0;
-  opacity: 0;
-  margin-top: 0;
-  padding: 8px;
-  overflow: hidden;
-  transition:
-    max-height 0.4s ease,
-    opacity 0.3s ease,
-    margin-top 0.3s ease;
-}
-
-/* Single Option Button Styling */
-.option-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  width: 100%;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  color: #4aa4e3;
-  overflow: hidden;
-  background-color: #111729ff;
-  border: 2px solid #111729ff;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-   box-shadow: 0 2px 3px #4aa4e3ff;  
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;    
-}
-
-.a .option-btn .gmail-btn .phone-btn {
-  overflow: hidden;
-}
-
-/* Hover effects for individual option buttons */
-.gmail-btn:hover {
-  background-color: #ea4335; /* Gmail Red */
-  color: #ea4335;
-  background-color: #111729ff;
-  border-color: #111729ff;
-  box-shadow: 0px 2px 8px #ea4335;
-}
-
-.phone-btn:hover {
-  color: #34a853;
-  background-color: #111729ff;
-  border-color: #111729ff;
-  box-shadow: 0px 2px 8px #34a853;
-}
-
-/* --- OPEN MENU STATE (Triggers when the main button is CLICKED) --- */
-.contact-checkbox:checked ~ .contact-options {
-  max-height: 120px; /* Expands to show child buttons */
-  opacity: 100;
-}
-
-/* Keeps the main button highlighted when the menu is open */
-.contact-checkbox:checked + .contact-btn {
-  background-color: #111729ff;
-  border-color: #111729ff;
 }
 
 .footer-text2 {
@@ -399,12 +249,10 @@
 }
 
 .home-text10 {
-  color: #c3e5fa;
+  color: var(--dl-color-secondary-700);
   font-size: 2.25rem;
   text-align: center;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family:Isometra;
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: var(--dl-layout-space-halfunit);
@@ -426,7 +274,7 @@
 }
 
 .home-text11 {
-  color: var(--dl-color-gray-900);
+  color: var(--dl-color-secondary-700);
   font-size: 1.25rem;
   max-width: 850px;
   font-style: normal;
@@ -559,8 +407,8 @@
   color: var(--dl-color-secondary-100);
   margin-top: var(--dl-layout-space-unit);
   text-align: center;
-  font-weight: 600;
-  font-family: Open Sans;
+  font-weight: 400;
+  font-family: Isometra;
 }
 
 .home-text21 {
@@ -616,9 +464,9 @@
 .home-text22 {
   color: var(--dl-color-secondary-100);
   margin-top: var(--dl-layout-space-unit);
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
-  font-family: Open Sans;
+  font-family: Isometra;
 }
 
 .home-text23 {
@@ -685,9 +533,9 @@
 .home-text24 {
   color: var(--dl-color-secondary-100);
   margin-top: var(--dl-layout-space-unit);
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
-  font-family: Open Sans;
+  font-family: Isometra;
 }
 
 .home-text25 {
@@ -751,8 +599,9 @@
 .home-text27 {
   color: var(--dl-color-secondary-500);
   margin-top: var(--dl-layout-space-unit);
-  line-height: 1.75;
-  font-weight: 450;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 400;
   text-align: center;
   margin-bottom: var(--dl-layout-space-unit);
 }
@@ -916,7 +765,6 @@
 }
 
 .home-text43 {
-  color: var(--dl-color-secondary-400);
   margin-top: var(--dl-layout-space-unit);
   text-align: center;
   margin-bottom: var(--dl-layout-space-unitandhalf);
@@ -932,7 +780,6 @@
 }
 
 .home-text44 {
-  color: var(--dl-color-secondary-400);
   text-align: center;
 }
 
@@ -946,7 +793,6 @@
 }
 
 .home-text45 {
-  color: var(--dl-color-secondary-400);
   text-align: center;
 }
 
@@ -960,7 +806,6 @@
 }
 
 .home-text46 {
-  color: var(--dl-color-secondary-400);
   text-align: center;
 }
 
@@ -1006,7 +851,6 @@
 }
 
 .home-text48 {
-  color: var(--dl-color-secondary-400);
   margin-top: var(--dl-layout-space-unit);
   text-align: center;
   margin-bottom: var(--dl-layout-space-unitandhalf);
@@ -1022,7 +866,6 @@
 }
 
 .home-text49 {
-  color: var(--dl-color-secondary-400);
   text-align: center;
 }
 
@@ -1036,7 +879,6 @@
 }
 
 .home-text50 {
-  color: var(--dl-color-secondary-400);
   text-align: center;
 }
 
@@ -1050,7 +892,6 @@
 }
 
 .home-text51 {
-  color: var(--dl-color-secondary-400);
   text-align: center;
 }
 
@@ -1379,17 +1220,6 @@
   align-self: center;
   align-items: center;
   flex-direction: column;
-}
-
-.home-text72 {
-  color: var(--dl-color-pimary-500);
-  margin-top: var(--dl-layout-size-doubleunit);
-  text-align: center;
-  align-self: center;
-  font-size: 1.275rem;
-  line-height: 1;
-  text-transform: uppercase;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .home-container49 {
