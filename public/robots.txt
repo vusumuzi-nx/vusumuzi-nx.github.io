@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://notus-pro-44ld2a.teleporthq.site/sitemap.xml
+Sitemap: https://vusumuzi-nx.github.io/sitemap.xml
